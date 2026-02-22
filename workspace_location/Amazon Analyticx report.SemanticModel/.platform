@@ -1,0 +1,11 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/gitIntegration/platformProperties/2.0.0/schema.json",
+  "metadata": {
+    "type": "SemanticModel",
+    "displayName": "Amazon Analyticx report"
+  },
+  "config": {
+    "version": "2.0",
+    "logicalId": "659ab252-4e12-a7cb-465a-6ecd3ab7bc88"
+  }
+}
