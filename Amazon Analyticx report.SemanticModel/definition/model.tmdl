@@ -1,0 +1,23 @@
+model Model
+	culture: en-IN
+	defaultPowerBIDataSourceVersion: powerBI_V3
+	sourceQueryCulture: en-IN
+	dataAccessOptions
+		legacyRedirects
+		returnErrorValuesAsNull
+
+/// Errors in queries that were loaded on 22-02-2026 16:17:43.
+queryGroup 'Query Errors - 22-02-2026 16:17:43'
+
+	annotation PBI_QueryGroupOrder = 0
+
+annotation __PBI_TimeIntelligenceEnabled = 1
+
+annotation PBI_QueryOrder = ["amazon"]
+
+annotation PBI_ProTooling = ["DevMode"]
+
+ref table amazon
+
+ref cultureInfo en-IN
+
